@@ -1,0 +1,3 @@
+missing library link: /usr/local/cuda-8.0/lib64/libcudart.so
+
+running make after build: make -C build && ./build/optical_flow

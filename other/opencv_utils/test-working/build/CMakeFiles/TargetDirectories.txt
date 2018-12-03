@@ -1,0 +1,3 @@
+/home/ubuntu/nvidia-tx1/opencv_stuff/test-working/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/nvidia-tx1/opencv_stuff/test-working/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/nvidia-tx1/opencv_stuff/test-working/build/CMakeFiles/cv_hello.dir

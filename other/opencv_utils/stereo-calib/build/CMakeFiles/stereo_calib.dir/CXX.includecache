@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/stereo_calib.cpp
+opencv2/calib3d.hpp
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/opencv2/calib3d.hpp
+opencv2/highgui.hpp
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/opencv2/highgui.hpp
+opencv2/imgproc.hpp
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/opencv2/imgproc.hpp
+vector
+-
+string
+-
+algorithm
+-
+iostream
+-
+iterator
+-
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+

@@ -1,0 +1,3 @@
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/nvidia-tx1/opencv_stuff/stereo-calib/build/CMakeFiles/stereo_calib.dir
