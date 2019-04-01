@@ -53,6 +53,12 @@ catkin config --cmake-args -DCMAKE_BUILD_TYPE=Debug
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
+### Make sure you have Python3 and Pip3 installed
+
+```
+sudo apt-get install python3-pip
+```
+
 ### Setting up a ROS environment with Python3 for Deep Learning
 
 Make sure you first comment out the source command for the main ROS environment (Kinetic) in your *bashrc* file.
