@@ -8,7 +8,7 @@ For now, I recommend using a previous version of PyTorch such as 0.4.1 or 0.5.0.
 
 ```
 git clone http://github.com/pytorch/pytorch
-git checkout 0.4.1
+git checkout v0.4.1
 cd pytorch
 git submodule update --init
 sudo pip3 install -U setuptools
