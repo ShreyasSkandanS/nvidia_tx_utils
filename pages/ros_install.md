@@ -109,6 +109,8 @@ catkin build
 * Candidate trouble makers : src/ros_comm/rosbag & src/ros_comm/rosbag_storage
 
 **Adding other ROS Packages**
+
+You will most likely need *Sensor_Msgs*, *Geometry_Msgs* etc, and you can download and build them into your melodic workspace like this:
 ```
 # Add other necessary ROS-Packages using rosinstall_generator
 rosinstall_generator ros_comm sensor_msgs nav_msgs geometry_msgs --rosdistro melodic --deps --tar > melodic-ros_comm.rosinstall
