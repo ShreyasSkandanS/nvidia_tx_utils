@@ -6,6 +6,8 @@ However, for the TX2, sadly it isn't this simple. We need to build PyTorch from 
 
 For now, I recommend using a previous version of PyTorch such as 0.4.1 or 0.5.0.
 
+April 2019: It appears there's a dependency that is now a private repository for pytorch==0.4.1; For **ss_segmentation** I believe pytorch==1.0.0 should also work smoothly.
+
 ```
 git clone http://github.com/pytorch/pytorch
 git checkout v0.4.1
@@ -34,4 +36,9 @@ Additionally, you will most likely need TorchVision for your project, which can 
 
 ```
 pip3 install --no-deps torchvision
+```
+
+Extras:
+```
+pip3 install Pillow
 ```
