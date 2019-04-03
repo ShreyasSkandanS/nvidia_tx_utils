@@ -32,6 +32,16 @@ print(torch.__version__)
 print(torch.cuda.is_available())
 ```
 
+Test that the GPU is working fine and there's no CUDA version conflicts:
+```
+import torch
+
+a = torch.ones(3,3).to('cuda')
+b = torch.ones(3,3).to('cuda')
+
+print(a + b)
+```
+
 Additionally, you will most likely need TorchVision for your project, which can be installed in a slightly easier manner:
 
 ```
