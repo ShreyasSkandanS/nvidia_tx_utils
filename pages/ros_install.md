@@ -85,11 +85,11 @@ catkin config -DCMAKE_BUILD_TYPE=Release
 git clone https://github.com/tkruse/vcstools
 cd vcstools
 git checkout mock_server_tar_test
-python setup.py develop
+sudo python setup.py develop
 cd ..
 git clone https://github.com/vcstools/wstool
 cd wstool
-python setup.py develop
+sudo python setup.py develop
 
 # Pull bare-bone dependencies for ROS (Melodic) and use workspace tool to initialize
 rosinstall_generator ros_comm --rosdistro melodic --deps --tar > melodic-ros_comm.rosinstall
@@ -104,6 +104,7 @@ catkin build
 ```
 
 **Note:**
+* Before you **catkin_build** make sure there's no possibility of this workspacing Extending your primary ROS installation, i.e Kinetic or your workspace.
 * You will probably see two build errors because of inappropriately set compile flags. They will try to compile without C++11 and fail.
 * You can manually go to these CMakeLists.txt files and add "std=c++11" to the compile options and build again.
 * Candidate trouble makers : src/ros_comm/rosbag & src/ros_comm/rosbag_storage
