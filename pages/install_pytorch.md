@@ -1,4 +1,4 @@
-# Installing PyTorch on TX2
+#Installing PyTorch on TX2
 
 Trying to install PyTorch on the TX2 for Python3.5 is a bit of a mess since you need to build from source. If you're using Python2.7 or Python3.6, NVIDIA has been kind enough to provide wheels that you can install from. I briefly mention this process and include the wheels in [this](https://github.com/ShreyasSkandanS/xavier_utils) repository.
 
@@ -7,6 +7,8 @@ However, for the TX2, sadly it isn't this simple. We need to build PyTorch from 
 For now, I recommend using a previous version of PyTorch such as 0.4.1 or 0.5.0.
 
 April 2019: It appears there's a dependency that is now a private repository for pytorch==0.4.1; For **ss_segmentation** I believe pytorch==1.0.0 should also work smoothly.
+
+I also have a successfully built pip wheel for PyTorch 1.0.0rc that will use Python3.5 on the NVIDIA TX2. You can find it in the **wheels** folder in this repository.
 
 ```
 git clone http://github.com/pytorch/pytorch
